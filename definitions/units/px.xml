@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="unit">
+	<description>A relative unit of measure that is defined by the width of one pixel on the current output device. The absolute size of a pixel is defined by the respective device and should correlate to 
+			physical size of a pixel in that device. That might, though, not be possible for all devices (e.g., for beamers where the physical size depends in the distance to the screen).</description>
+
+	<example>
+		<code>
+			branch {
+				line-width: 1px;
+			}
+		</code>
+		<description>Sets the width of all branches in the tree to 1 px. The physical branch widths will then depend on the output device that displays the tree.</description>
+	</example>
+</treeSSLangDefition>

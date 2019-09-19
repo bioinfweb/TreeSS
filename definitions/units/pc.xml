@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="unit">
+	<description>The pica is a typographic unit of measure. (1 pc = ​1⁄6 in = 12 pt)</description>
+	<unitInMM>0.42333333333333333333333333333333‬</unitInMM>
+
+	<example>
+		<code>
+			node {
+				font-size: 1pc;
+			}
+		</code>
+		<description>Sets the font size of all nodes to a height of 1 pc.</description>
+	</example>
+</treeSSLangDefition>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="unit">
+	<description>A millimeter.</description>
+	<unitInMM>1</unitInMM>
+
+	<example>
+		<code>
+			branch {
+				line-width: 0.3mm;
+			}
+		</code>
+		<description>Sets the line width of all branches 0.3 mm.</description>
+	</example>
+</treeSSLangDefition>

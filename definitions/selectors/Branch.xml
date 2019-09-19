@@ -6,7 +6,7 @@
 	<example>
 		<code>
 			branch {
-				width: 0.3mm;
+				line-width: 0.3mm;
 			}
 		</code>
 		<description>Sets the line width of all branches in a tree to 0.3 mm.</description>

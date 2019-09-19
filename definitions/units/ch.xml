@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="unit">
+	<description>A relative unit of measure that is defined by the width of the digit "0" in the font size of the current element. If the current font defines an 0-width that will be used.
+			Otherwise an average letter width for the current font will be calculated.</description>
+
+	<example>
+		<code>
+			scale {
+				width: 80ch;
+			}
+		</code>
+		<description>Sets the  width of the scale bar to 1 ch.</description>
+	</example>
+</treeSSLangDefition>

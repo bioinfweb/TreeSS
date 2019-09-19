@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="unit">
+	<description>A relative unit of measure that is defined by the height of the lower case letter "x" in the font size of the current element. If the current font defines an x-height that will be used.
+			Otherwise 1 ex is set to 0.5 em.</description>
+
+	<example>
+		<code>
+			branch {
+				line-width: 1ex;
+			}
+		</code>
+		<description>Sets the line width of all branches in a tree to the height of 1 ex.</description>
+	</example>
+</treeSSLangDefition>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="unit">
+	<description>A relative unit of measure that is defined by the font size of the parent element. (Note that parent element in that case means other simple selectors that reference parent elements
+			of the current element. Therefore "tree" would be parent of "node". "Parent" is meant with respect to the tree topology here, which means "node" is never parent to "node".)</description>
+
+	<example>
+		<code>
+			canvas {
+				font-size: 12pt;
+			}
+			
+			node {
+				font-size: 0.8rem;
+			}
+		</code>
+		<description>Defines a default font size of 12 pt for the tree and sets the font size of all nodes to 80 % of that (9.6 pt). Note that nodes nested under other nodes will not have an even smaller font size.</description>
+	</example>
+</treeSSLangDefition>

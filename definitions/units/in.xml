@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="unit">
+	<description>An inch according to the international yard and pound agreement from 1959. (1 in = 2.54 cm).</description>
+	<unitInMM>25.4</unitInMM>
+
+	<example>
+		<code>
+			scale {
+				width: 6in;
+			}
+		</code>
+		<description>Sets the width of the scale bar to 6 in.</description>
+	</example>
+</treeSSLangDefition>

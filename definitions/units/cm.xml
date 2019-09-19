@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="unit">
+	<description>A centimeter. (1 cm = 10 mm).</description>
+	<unitInMM>10</unitInMM>
+
+	<example>
+		<code>
+			branch {
+				line-width: 0.2cm;
+			}
+		</code>
+		<description>Sets the line width of all branches 0.2 cm.</description>
+	</example>
+</treeSSLangDefition>
