@@ -13,7 +13,7 @@
 	<example>
 		<code>
 			branch:terminal {
-				color: green;
+				line-color: green;
 			}
 		</code>
 		<description>Sets the line color of all branches leading to terminal nodes to green.</description>

@@ -13,7 +13,7 @@
 	<example>
 		<code>
 			branch:last-child {
-				color: green;
+				line-color: green;
 			}
 		</code>
 		<description>Sets the line color leading to the last child node of every parent node to green.</description>

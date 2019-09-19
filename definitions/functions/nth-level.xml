@@ -18,7 +18,7 @@
 	<example>
 		<code>
 			branch:nth-level(2) {
-				color: green;
+				line-color: green;
 			}
 		</code>
 		<description>Selects all branches leading to nodes on the third level of the tree (above are only the root (level 0) it ist direct children (level 1)) and sets their color to green.</description>

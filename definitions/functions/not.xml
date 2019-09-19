@@ -18,7 +18,7 @@
 	<example>
 		<code>
 			branch:not(:first-child) {
-				color: green;
+				line-color: green;
 			}
 		</code>
 		<description>Sets the line color leading to all but the first child node of every parent in the tree to green.</description>
@@ -34,7 +34,7 @@
 	<example>
 		<code>
 			:not(branch:first-child) {
-				color: green;
+				line-color: green;
 			}
 		</code>
 		<description>Selects all elements of the tree document except for all branches that lead to the first child of a parent. That includes the remaining branches and all other elements in the tree 

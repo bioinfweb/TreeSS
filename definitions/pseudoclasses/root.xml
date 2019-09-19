@@ -13,7 +13,7 @@
 	<example>
 		<code>
 			branch:root {
-				color: green;
+				line-color: green;
 			}
 		</code>
 		<description>Sets the line color of the branch leading to the root to green. ("branch:nth-level(0)" would be an equivalent expression.)</description>

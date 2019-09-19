@@ -13,7 +13,7 @@
 	<example>
 		<code>
 			branch:first-child {
-				color: green;
+				line-color: green;
 			}
 		</code>
 		<description>Sets the line color leading to the first child node of every parent node to green.</description>
