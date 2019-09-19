@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="simpleSelector">
+	<description>Selects all branches of a tree.</description>
+	<firstVersion>0.2</firstVersion>
+
+	<example>
+		<code>
+			branch {
+				width: 0.3mm;
+			}
+		</code>
+		<description>Sets the line width of all branches in a tree to 0.3 mm.</description>
+	</example>
+</treeSSLangDefition>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="simpleSelector">
+	<description>Selects all nodes of a tree.</description>
+	<firstVersion>0.2</firstVersion>
+
+	<example>
+		<code>
+			node {
+				font-size: 0.8em;
+			}
+		</code>
+		<description>Sets the font size of all nodes in a tree to 80 % of the default font size of the document.</description>
+	</example>
+</treeSSLangDefition>

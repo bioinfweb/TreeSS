@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="simpleSelector">
+	<description>Selects the tree itself.</description>
+	<firstVersion>0.2</firstVersion>
+
+	<example>
+		<code>
+			tree {
+				scaled: true;
+			}
+		</code>
+		<description>Determines that the staored branch lengths should be considered to draw the tree.</description>
+	</example>
+</treeSSLangDefition>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="simpleSelector">
+	<description>Selects the rendering box of a tree.</description>
+	<firstVersion>0.2</firstVersion>
+
+	<example>
+		<code>
+			canvas {
+				background-color: white;
+			}
+		</code>
+		<description>Sets the background color of the tree to white.</description>
+	</example>
+</treeSSLangDefition>
