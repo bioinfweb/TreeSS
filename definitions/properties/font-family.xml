@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="property">
+	<description>Sets the font family of a text element. Besides concrete font names, the constants sans-serif, serif, cursive, fantasy and monospace can be used to select 
+			respective default fonts of the target system. Mutliple values with decreasing priority may be specified. It one font it not available on the 
+			target system, the next one will be tried.</description>
+	<firstVersion>0.2</firstVersion>
+
+	<parameterList repeatParamIndex="0">
+		<parameter>STRING</parameter>
+	</parameterList>
+	
+	<validSelectors>node scale</validSelectors>
+
+	<example>
+		<code>
+			node {
+				font-family: "Arial", sans-serif;
+			}
+		</code>
+		<description>Tries to sets the font for all nodes in a tree to "Arial". If "Arial" is not available on the target system, the default sans serif font will be selected. 
+				(Note that concrete font names are string values and must be in quotation marks, while sans-serif is a constant identifier and must not be in quotation marks. 
+				Unless a fault-tolerance implementation is available, applications would consider "sans-serif" as a concrete font name which would not be found and will not 
+				select the default sans serif font.)</description>
+	</example>
+</treeSSLangDefition>

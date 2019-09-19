@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="property">
+	<description>Sets the background color an element.</description>
+	<firstVersion>0.2</firstVersion>
+
+	<parameterList>
+		<parameter>COLOR</parameter>
+	</parameterList>
+	
+	<validSelectors>canvas</validSelectors>
+
+	<example>
+		<code>
+			canvas {
+				background-color: white;
+			}
+		</code>
+		<description>Sets the background color of a document to white.</description>
+	</example>
+</treeSSLangDefition>
