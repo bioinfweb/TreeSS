@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition type="function" xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition">
+	<description>Psuedo-function that allows to select nodes and branches on a whole level of the tree. The parameter specifies the number of levels below that level. 
+			Counting starts at the deepest terminal node of the tree. (In trees, nodes in the same level have the same number of parent nodes to be traversed to reach the root of the tree.)</description>
+	<firstVersion>0.2</firstVersion>
+
+	<returnType>SELECTOR</returnType>
+	<parameterList>
+		<parameter>NUMBER</parameter>
+	</parameterList>
+	
+	<implementations>
+		<implementation language="Java">
+			<class>info.bioinfweb.jtreess.execute.implementation.selectorpseudofunction.NthLastLevelPseudofunctionImplementation</class>
+		</implementation>
+	</implementations>
+
+	<example>
+		<code>
+			branch:nth-last-level(1) {
+				color: green;
+			}
+		</code>
+		<description>Selects all branches leading to nodes on the second deepest level of the tree and sets their color to green.</description>
+	</example>
+</treeSSLangDefition>

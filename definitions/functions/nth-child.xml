@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition type="function" xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition">
+	<description>Psuedo-function that allows to selects a child node with the specified index under each parent node in a tree. Note that indices atrt with 0. Therefore the first child has the index 0, 
+			the second has 1 and so forth.</description>
+	<firstVersion>0.2</firstVersion>
+
+	<returnType>SELECTOR</returnType>
+	<parameterList>
+		<parameter>NUMBER</parameter>
+	</parameterList>
+	
+	<implementations>
+		<implementation language="Java">
+			<class>info.bioinfweb.jtreess.execute.implementation.selectorpseudofunction.NthChildPseudofunctionImplementation</class>
+		</implementation>
+	</implementations>
+
+	<example>
+		<code>
+			node:nth-child(0) {
+				font-size: 0.8em;
+			}
+		</code>
+		<description>Sets the font size of all nodes in a subtree that are the first element on their level to 80 % of the default font size of the document. (Note that the pseudoclass :first-child 
+				could have been used here instead to achieve the same result. :first-child and :last-child are conveniece classes that model special applications of nth-child().</description>
+	</example>
+</treeSSLangDefition>

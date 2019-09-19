@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition type="function" xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition">
+	<description>Psuedo-function that allows to negate the result of another selector operation. This includes both psuedo- and simple selectors. Note that it makes a difference whether a simple selector
+			is applied before or after the negation. (See examples.)</description>
+	<firstVersion>0.2</firstVersion>
+
+	<returnType>SELECTOR</returnType>
+	<parameterList>
+		<parameter>SELECTOR</parameter>
+	</parameterList>
+	
+	<implementations>
+		<implementation language="Java">
+			<class>info.bioinfweb.jtreess.execute.implementation.selectorpseudofunction.NotPseudofunctionImplementation</class>
+		</implementation>
+	</implementations>
+
+	<example>
+		<code>
+			branch:not(:first-child) {
+				color: green;
+			}
+		</code>
+		<description>Sets the line color leading to all but the first child node of every parent in the tree to green.</description>
+	</example>
+	<example>
+		<code>
+			:not(scale) {
+				font-size: 10pt;
+			}
+		</code>
+		<description>Selects all elements of the tree document except for the scale bar and sets their font size to 10 pt.</description>
+	</example>
+	<example>
+		<code>
+			:not(branch:first-child) {
+				color: green;
+			}
+		</code>
+		<description>Selects all elements of the tree document except for all branches that lead to the first child of a parent. That includes the remaining branches and all other elements in the tree 
+				(e.g., all nodes including these that are the first child of their parent). The line color of all selected elements will be set to green.</description>
+	</example>
+</treeSSLangDefition>
