@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="property">
+	<value type="color">#00FFFF</value>
+	<firstVersion>0.2</firstVersion>
+
+	<example>
+		<code>
+			branch {
+				line-color: Aqua;
+			}
+		</code>
+		<description>Sets the line color of all branches in a tree to Aqua.</description>
+	</example>
+</treeSSLangDefition>
