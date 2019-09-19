@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="property">
+	<description>Sets the width of a line element.</description>
+	<firstVersion>0.2</firstVersion>
+
+	<parameterList>
+		<parameter>LENGTH</parameter>
+	</parameterList>
+	
+	<validSelectors>node branch scale</validSelectors>
+
+	<example>
+		<code>
+			branch {
+				line-width: 0.3mm;
+			}
+		</code>
+		<description>Sets the line width of all branches in the document to 0.3 mm.</description>
+	</example>
+</treeSSLangDefition>

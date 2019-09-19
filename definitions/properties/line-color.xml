@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="property">
+	<description>Sets the color of a line element. (Note that some elements allow to specify the text color separetely using the property "text-color".)</description>
+	<firstVersion>0.2</firstVersion>
+
+	<parameterList>
+		<parameter>COLOR</parameter>
+	</parameterList>
+	
+	<validSelectors>node branch scale</validSelectors>
+
+	<example>
+		<code>
+			branch {
+				line-color: green;
+			}
+		</code>
+		<description>Sets the line color of all branches in the document to green.</description>
+	</example>
+</treeSSLangDefition>
