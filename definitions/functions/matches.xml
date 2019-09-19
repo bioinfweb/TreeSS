@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition type="function" xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition">
+	<description>Psuedofunction that allows to combine multiple selectors.</description>
+	<firstVersion>0.2</firstVersion>
+
+	<returnType>SELECTOR</returnType>
+	<parameterList repeatParamIndex="0">
+		<parameter>SELECTOR</parameter>
+	</parameterList>
+	
+	<implementations>
+		<implementation language="Java">
+			<class>info.bioinfweb.jtreess.execute.implementation.selectorpseudofunction.MatchesPseudofunctionImplementation</class>
+		</implementation>
+	</implementations>
+
+	<example>
+		<code>
+			node:matches(:first-child, :last-child) {
+				font-size: 0.8em;
+			}
+		</code>
+		<description>Sets the font size of all nodes in a subtree that are the first or last element on their level to 80 % of the default font size of the document.</description>
+	</example>
+</treeSSLangDefition>
