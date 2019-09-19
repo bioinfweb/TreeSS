@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <treeSSLangDefition type="pseudoclass" xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition">
-	<description>Psuedofunction that allows to select the first child node of each parent node in a tree.</description>
+	<description>Selects the first child node of each parent node in a tree.</description>
 	<firstVersion>0.2</firstVersion>
 
 	<validSelectors>node branch</validSelectors>
