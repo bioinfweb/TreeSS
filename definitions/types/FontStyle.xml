@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="type">
+	<constants>
+		<constant>
+			<name>normal</name>
+			<description>Displays text in a normal font style. This is default.</description>
+		</constant>
+		<constant>
+			<name>italic</name>
+			<description>Displays text in a italic font style.</description>
+		</constant>
+		<constant>
+			<name>oblique</name>
+			<description>Displays text in a oblique font style.</description>
+		</constant>
+	</constants>
+</treeSSLangDefition>

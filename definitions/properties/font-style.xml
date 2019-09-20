@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="property">
+	<description>Sets the font style of a text element.</description>
+	<firstVersion>0.2</firstVersion>
+
+	<parameterList repeatParamIndex="0">
+		<parameter>FontStyle</parameter>
+	</parameterList>
+	
+	<validSelectors>node scale</validSelectors>
+
+	<example>
+		<code>
+			node {
+				font-style: italic;
+			}
+		</code>
+		<description>Sets the font style of all nodes to italic.</description>
+	</example>
+</treeSSLangDefition>
