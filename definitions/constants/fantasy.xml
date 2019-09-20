@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="property">
+	<description>Represents the target system's default font with an extraordinary type face.</description>
+	<type>STRING</type>
+	<firstVersion>0.2</firstVersion>
+
+	<implementations>
+		<implementation language="Java">
+			<class>info.bioinfweb.jtreess.execute.implementation.value.FantasyDynamicValueImplementation</class>
+		</implementation>
+	</implementations>
+
+	<example>
+		<code>
+			node {
+				font-family: "Impact", fantasy;
+			}
+		</code>
+		<description>Tries to sets the font for all nodes in a tree to "Impact". If "Impact" is not available on the target system, the default fantasy font 
+				will be selected. (Note that concrete font names are string values and must be in quotation marks, while fantasy is a constant identifier and must not be 
+				in quotation marks. Unless a fault-tolerance implementation is available, applications would consider "fantasy" as a concrete font name which would not be 
+				found and will not select the default fantasy font.)</description>
+	</example>
+</treeSSLangDefition>

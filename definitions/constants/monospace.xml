@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="property">
+	<description>Represents the target system's default monospace font. Each letter of this font should have the same width.</description>
+	<type>STRING</type>
+	<firstVersion>0.2</firstVersion>
+
+	<implementations>
+		<implementation language="Java">
+			<class>info.bioinfweb.jtreess.execute.implementation.value.MonospaceDynamicValueImplementation</class>
+		</implementation>
+	</implementations>
+
+	<example>
+		<code>
+			node {
+				font-family: "Courier New", monospace;
+			}
+		</code>
+		<description>Tries to sets the font for all nodes in a tree to "Courier New". If "Courier New" is not available on the target system, the default monospace font 
+				will be selected. (Note that concrete font names are string values and must be in quotation marks, while monospace is a constant identifier and must not be 
+				in quotation marks. Unless a fault-tolerance implementation is available, applications would consider "monospace" as a concrete font name which would not be 
+				found and will not select the default monospace font.)</description>
+	</example>
+</treeSSLangDefition>

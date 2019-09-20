@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="property">
+	<description>Represents the target system's default sans serif font.</description>
+	<type>STRING</type>
+	<firstVersion>0.2</firstVersion>
+
+	<implementations>
+		<implementation language="Java">
+			<class>info.bioinfweb.jtreess.execute.implementation.value.SansSerifDynamicValueImplementation</class>
+		</implementation>
+	</implementations>
+
+	<example>
+		<code>
+			node {
+				font-family: "Arial", sans-serif;
+			}
+		</code>
+		<description>Tries to sets the font for all nodes in a tree to "Arial". If "Arial" is not available on the target system, the default sans serif font 
+				will be selected. (Note that concrete font names are string values and must be in quotation marks, while sans-serif is a constant identifier and must not be 
+				in quotation marks. Unless a fault-tolerance implementation is available, applications would consider "sans-serif" as a concrete font name which would not be 
+				found and will not select the default serif font.)</description>
+	</example>
+</treeSSLangDefition>
