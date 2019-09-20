@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="property">
+	<description>Specifies whether an element should be displayed (true) or not (false).</description>
+	<firstVersion>0.2</firstVersion>
+
+	<parameterList>
+		<parameter>BOOLEAN</parameter>
+	</parameterList>
+	
+	<validSelectors>scale</validSelectors>
+
+	<example>
+		<code>
+			scale {
+				visible: true;
+			}
+		</code>
+		<description>Defines that a scale bar should be displayed along the tree.</description>
+	</example>
+</treeSSLangDefition>

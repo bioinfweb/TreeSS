@@ -16,6 +16,6 @@
 				scaled: true;
 			}
 		</code>
-		<description>Sets the text color of all nodes in the document to green.</description>
+		<description>Defines that the tree should be displayed using the stored branch lengths.</description>
 	</example>
 </treeSSLangDefition>
