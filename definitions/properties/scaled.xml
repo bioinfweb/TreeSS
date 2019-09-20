@@ -12,7 +12,7 @@
 
 	<example>
 		<code>
-			scale {
+			tree {
 				scaled: true;
 			}
 		</code>
