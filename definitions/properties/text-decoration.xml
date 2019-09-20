@@ -22,7 +22,7 @@
 	<example>
 		<code>
 			node {
-				text-decoration: underline overline dashed blue;
+				text-decoration: underline overline dashed #0000FF;
 			}
 		</code>
 		<description>Sets the text of all nodes to be underlined and to have another line above. Both lines are dashed and blue.</description>
