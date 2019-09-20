@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="property">
+	<description>Specifies whether a tree should be displayed using the stored branch lengths (true) or if all leafs should always be aligned at one line and the 
+			branch lengths should be set in a way to achieve an optimal layout (false).</description>
+	<firstVersion>0.2</firstVersion>
+
+	<parameterList>
+		<parameter>BOOLEAN</parameter>
+	</parameterList>
+	
+	<validSelectors>tree</validSelectors>
+
+	<example>
+		<code>
+			scale {
+				scaled: true;
+			}
+		</code>
+		<description>Sets the text color of all nodes in the document to green.</description>
+	</example>
+</treeSSLangDefition>

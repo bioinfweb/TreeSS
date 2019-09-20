@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="property">
+	<description>Represents the boolean value "false".</description>
+	<type>BOOLEAN</type>
+	<value>false</value>
+	<firstVersion>0.2</firstVersion>
+</treeSSLangDefition>
