@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="type">
+	<constants>
+		<constant>
+			<name>none</name>
+			<description>No text decoration.</description>
+		</constant>
+		<constant>
+			<name>underline</name>
+			<description>An underlined text.</description>
+		</constant>
+		<constant>
+			<name>overline</name>
+			<description>A line above the text.</description>
+		</constant>
+		<constant>
+			<name>line-through</name>
+			<description>A line through the text.</description>
+		</constant>
+	</constants>
+</treeSSLangDefition>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="type">
+	<constants>
+		<constant>
+			<name>solid</name>
+			<description>A single line is used. This is the default.</description>
+		</constant>
+		<constant>
+			<name>double</name>
+			<description>Two lines are used.</description>
+		</constant>
+		<constant>
+			<name>dotted</name>
+			<description>A single dotted line is used.</description>
+		</constant>
+		<constant>
+			<name>dashed</name>
+			<description>A single dashed line is used.</description>
+		</constant>
+		<constant>
+			<name>wavy</name>
+			<description>A single wavy line is used.</description>
+		</constant>
+	</constants>
+</treeSSLangDefition>

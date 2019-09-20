@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="property">
+	<description>This is a convenience property that combines text-decoration-line, text-decoration-style and text-decoration-color.</description>
+	<firstVersion>0.2</firstVersion>
+
+	<parameterList repeatParamIndex="0">
+		<parameter>TextDecorationLine</parameter>
+		<parameter>TextDecorationStyle</parameter>
+		<parameter>COLOR</parameter>
+	</parameterList>
+	
+	<validSelectors>node scale</validSelectors>
+
+	<example>
+		<code>
+			node {
+				text-decoration: underline solid red;
+			}
+		</code>
+		<description>Sets the text of all nodes to be underlined with a single solid line in red.</description>
+	</example>
+	<example>
+		<code>
+			node {
+				text-decoration: underline overline dashed blue;
+			}
+		</code>
+		<description>Sets the text of all nodes to be underlined and to have another line above. Both lines are dashed and blue.</description>
+	</example>
+</treeSSLangDefition>

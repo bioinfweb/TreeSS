@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="property">
-	<description>Sets the font style of a text element.</description>
+	<description>Sets the color of text decoration lines.</description>
 	<firstVersion>0.2</firstVersion>
 
 	<parameterList>
-		<parameter>FontStyle</parameter>
+		<parameter>COLOR</parameter>
 	</parameterList>
 	
 	<validSelectors>node scale</validSelectors>
@@ -12,9 +12,10 @@
 	<example>
 		<code>
 			node {
-				font-style: italic;
+				text-decoration-line: underline;
+				text-decoration-color: red;
 			}
 		</code>
-		<description>Sets the font style of all nodes to italic.</description>
+		<description>Sets the text of all nodes to be underlined in red.</description>
 	</example>
 </treeSSLangDefition>

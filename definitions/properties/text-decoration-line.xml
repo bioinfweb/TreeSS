@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="property">
+	<description>Sets the text decoration. Mutliple values may be combined.</description>
+	<firstVersion>0.2</firstVersion>
+
+	<parameterList repeatParamIndex="0">
+		<parameter>TextDecorationLine</parameter>
+	</parameterList>
+	
+	<validSelectors>node scale</validSelectors>
+
+	<example>
+		<code>
+			node {
+				text-decoration-line: underline;
+			}
+		</code>
+		<description>Sets the text of all nodes to be underlined.</description>
+	</example>
+	<example>
+		<code>
+			node {
+				text-decoration-line: underline overline;
+			}
+		</code>
+		<description>Sets the text of all nodes to be underlined and to have another line above.</description>
+	</example>
+</treeSSLangDefition>
