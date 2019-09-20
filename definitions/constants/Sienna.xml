@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <treeSSLangDefition xmlns="http://bioinfweb.info/xmlns/TreeSS/languageDefinition" type="property">
-	<value type="color">#A0522D</value>
+	<type>COLOR</type>
+	<value>#A0522D</value>
 	<firstVersion>0.2</firstVersion>
 
 	<example>
